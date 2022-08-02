@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Portfolio</title>
+        <meta name='viewport' content="width=device-width,initial-scale=1">
+        <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <style>
+            * {
+                margin:0;
+                padding:0;
+            }
+            html {
+                scroll-behavior:smooth;
+            }
+            body {
+                padding:10vh;
+                background:url('portfoliobg.jpg') no-repeat center center fixed;
+                background-size:cover;
+            }
+            .homepage {
+                width:100%;
+                height:80vh;
+                align-items:center;
+            }
+            .content-home {
+                align-items:center;
+                text-align:left;
+                margin-top:10vh;
+                width:30vh;
+                height:30vh;
+                padding:2vh;
+                background-color:RGBA(255,255,255,0.3);
+                backdrop-filter:blur(15px);
+                -webkit-backdrop-filter:blur(15px);
+                border-radius:20px;
+                box-shadow:0 8px 32px 0 RGBA(0,0,0,0.37);
+            }
+            .content-home img {
+                width:100px;
+                height:100px;
+                border:1px solid #ffffff;
+                border-radius:20px;
+            }
+            .content-home h2 {
+                font-family:'Montserrat',serif;
+                padding:1vh;
+            }
+            .content-home h5 {
+                font-family:'Ubuntu',serif;
+                padding:1vh;
+            }
+            .btn_click {
+                display:inline-block;
+                background:linear-gradient(to right, #8d68c5, #e34494);
+                font-family:'Ubuntu',serif;
+                padding:10px;
+                border-radius:20px;
+                margin-top:3vh;
+            }
+            .btn_click a {
+                text-decoration:none;
+                color:#000;
+            }
+            .btn_click a:hover {
+                color:#fff;
+            }
+            .about {
+                margin-bottom:4vh;
+                background-color:RGBA(255,255,255,0.3);
+                backdrop-filter:blur(15px);
+                -webkit-backdrop-filter:blur(15px);
+                border-radius:20px;
+                box-shadow:0 8px 32px 0 RGBA(0,0,0,0.37);
+                /*align-items:center;*/
+                justify-content:center;
+                padding:1vh;
+                text-align:center;
+            }
+            .about h2 {
+                margin-bottom:-5vh;
+                font-family:'Montserrat',serif;
+            }
+            .about-underline {
+                width:60%;
+                height:2px;
+                background:rgb(255,0,0);
+                margin:6vh;
+                border:0.5px solid black;
+                border-radius:20px;
+            }
+            .about p {
+                font-family:'Ubuntu',serif;
+                padding:1vh;
+                margin-top:-5vh;
+            }
+            .skills {
+                background-color:RGBA(255,255,255,0.3);
+                backdrop-filter:blur(15px);
+                -webkit-backdrop-filter:blur(15px);
+                border-radius:20px;
+                box-shadow:0 8px 32px 0 RGBA(0,0,0,0.37);
+                text-align:center;
+                margin-bottom:4vh;
+            }
+            .skills h2 {
+                padding:1vh;
+                font-family:'Montserrat',serif;
+            }
+            .skills-underline {
+                margin-left:6vh;
+                background:rgb(255,0,0);
+                width:60%;
+                height:2px;
+                border:0.5px solid black;
+                border-radius:20px;
+            }
+            .skills .skill-para {
+                padding:1vh;
+                font-family:'Ubuntu',serif;
+            }
+            .skills ul {
+                text-align:left;
+                padding:1vh;
+                font-family:'Ubuntu',serif;
+            }
+            .contact {
+                background-color:RGBA(255,255,255,0.3);
+                backdrop-filter:blur(15px);
+                -webkit-backdrop-filter:blur(15px);
+                border-radius:20px;
+                box-shadow:0 8px 32px 0 RGBA(0,0,0,0.37);
+                text-align:center;
+            }
+            .contact h2 {
+                font-family:'Montserrat',serif;
+                padding:1vh;
+            }
+            .contact-underline {
+                margin-left:6vh;
+                background:rgb(255,0,0);
+                width:60%;
+                height:2px;
+                border:0.5px solid black;
+                border-radius:20px;
+            }
+            .contact i {
+                font-size:30px;
+                text-decoration:none;
+                color:#000;
+                padding:5px;
+            }
+            .contact p {
+                padding:1vh;
+                font-family:'Ubuntu',serif;
+            }
+            .hire-me {
+                width:30%;
+                margin:1vh;
+                background:linear-gradient(to right, #348feb, #31de9e);
+                display:inline-block;
+                padding:1vh;
+                border-radius:20px;
+            }
+            .hire-me a {
+                font-family:'Ubuntu',serif;
+                font-size:20px;
+                text-decoration:none;
+                color:#000;
+            }
+            .hire-me a:hover {
+                color:#fff;
+            }
+        </style>
+        <script src="https://kit.fontawesome.com/dabeb5f8c7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class='container'>
+            <!-- homepage -->
+            <div class='homepage'>
+                <div class='content-home'>
+                <img src='Profilepic-01.jpeg' alt='image of dev'/>
+                <h2>Hi, I am Akash Nath</h2>
+                <h5>and I am a passionate programmer</h5>
+                <div class='btn_click'>
+                    <a href='#contact'>
+                        Work With Me
+                    </a>
+                </div>
+                </div>
+            </div>
+            <!-- about section -->
+            <div class='about'>
+                <h2>Who I am</h2>
+                <div class='about-underline'></div>
+                <p>So basically I'm a student from India...and I love to code. I'm a mobile developer...I mean I'm not a android developer but I use the device 'phone' to code. So...that's all about me...now check my skills below :)</p>
+            </div>
+            <!-- skills section -->
+            <div class='skills'>
+                <h2>My Skills</h2>
+                <div class='skills-underline'></div>
+                <div class='skill-para'>
+                    I can code backend as well as frontend...you can call me a fullstack developer :).Here are what I can do :
+                    <ul>
+                        <li>Python progrprogramming
+                        <li>Web Development (a little bit)</li>
+                        <li>Web designing (a little bit)</li>
+                    </ul>
+                    <p>
+                        These are the things that I can do :)
+                    </p>
+                </div>
+            </div>
+            <div class='contact' id='contact'>
+                <h2>Contact me</h2>
+                <div class='contact-underline'></div>
+                <a href='https://www.instagram.com/invites/contact/?i=19lwqy5y3800r&utm_content=hblizqj'><i class='fa fa-instagram'></i></a>
+                <a href='https://github.com/Akash-nath29'><i class='fa fa-github'></i></a>
+                <a href='https://twitter.com/anath5440?t=uPZSeDr-U1ppy1ChljfrRw&s=09'><i class='fa fa-twitter' ></i></a>
+                <a href='mailto:anath5440@gmail.com '><i class='fa fa-envelope'></i></a>
+                <p>
+                    I can assure you I'll try my best to do the work if you hire me :)
+                </p>
+                <div class='hire-me'><a href='https://www.upwork.com/freelancers/~01e0724608edcc944d'>Hire me</a></div>
+            </div>
+        </div>
+    </body>
+</html>
