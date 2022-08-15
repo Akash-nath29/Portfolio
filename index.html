@@ -165,13 +165,30 @@
                 padding:1vh;
                 border-radius:20px;
             }
+            .cv {
+                width:30%;
+                margin:1vh;
+                background:linear-gradient(to right, #ff5532, #f7ff30);
+                display:inline-block;
+                padding:1vh;
+                border-radius:20px;
+            }
             .hire-me a {
                 font-family:'Ubuntu',serif;
                 font-size:20px;
                 text-decoration:none;
                 color:#000;
             }
+            .cv a {
+                font-family:'Ubuntu',serif;
+                font-size:20px;
+                text-decoration:none;
+                color:#000;
+            }
             .hire-me a:hover {
+                color:#fff;
+            }
+            .cv a:hover {
                 color:#fff;
             }
             .in-contact {
@@ -270,6 +287,11 @@
                     I can assure you I'll try my best to do the work if you hire me :)
                 </p>
                 <div class='hire-me'><a href='https://www.upwork.com/freelancers/~01e0724608edcc944d'>Hire me</a></div>
+                <div class='cv'>
+                    <a href='CV2.pdf'>
+                        Get CV
+                    </a>
+                </div>
             </div>
             <div class='in-contact'>
                 <div class='contact-form'>
@@ -294,9 +316,9 @@
                     Host : "smtp.gmail.com",
                     Username : "anath5440@gmail.com",
                     Password : "FA534E477A4EE7C288AD1AB426314A5BD4B8",
-                    To : "anath5440@gmail.com",
+                    To : 'futuredevelopers2022@gmail.com',
                     From : document.getElementById('email').value,
-                    Subject : "New feedback",
+                    Subject : "Mew feedback",
                     Body : "Name:"+ document.getElementById("name").value
                             "<br> Email:" + document.getElementById("email").value
                             "<br> Phone Number:"+ document.getElementById("phone").value
